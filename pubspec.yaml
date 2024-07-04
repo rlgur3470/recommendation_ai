@@ -1,0 +1,33 @@
+name: food
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.3
+  table_calendar: ^3.0.0 # 추가된 부분
+
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - asset/image/korean_food.jpg
+    - asset/image/japanese_food.jpg
+    - asset/image/western_food.jpg
+    - asset/image/morning.jpg
+    - asset/image/afternoon.jpg
+    - asset/image/evening.jpg
+    - asset/image/okarada_logo.png
